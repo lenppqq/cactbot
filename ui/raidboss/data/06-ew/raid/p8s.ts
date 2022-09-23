@@ -123,6 +123,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Tank Auto-Angriffe',
           fr: 'Auto sur le tank',
           ja: 'タンクオートアタック',
+          cn: '坦克平A',
           ko: '탱커 평타',
         },
       },
@@ -155,6 +156,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Raus + Verteilen',
           fr: 'Extérieur + Écartez-vous',
           ja: '黒線の外側 + 散会',
+          cn: '黑线外侧 + 分散',
           ko: '밖으로 + 산개',
         },
         outAndStacks: {
@@ -162,6 +164,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Raus + Sammeln',
           fr: 'Extérieur + Package',
           ja: '黒線の外側 + 2人頭割り',
+          cn: '黑线外侧 + 2人分摊',
           ko: '밖으로 + 쉐어',
         },
       },
@@ -187,6 +190,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Rein + Verteilen',
           fr: 'Intérieur + Écartez-vous',
           ja: '黒線の内側 + 散会',
+          cn: '黑线内侧 + 分散',
           ko: '안으로 + 산개',
         },
         inAndStacks: {
@@ -194,6 +198,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Rein + Sammeln',
           fr: 'Intérieur + Package',
           ja: '黒線の内側 + 2人頭割り',
+          cn: '黑线外侧 + 2人分摊',
           ko: '안으로 + 쉐어',
         },
       },
@@ -232,6 +237,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Mit Partner sammeln',
           fr: 'Package avec votre partenaire',
           ja: '2人頭割り',
+          cn: '2人分摊',
           ko: '2인 쉐어',
         },
       },
@@ -250,6 +256,7 @@ const triggerSet: TriggerSet<Data> = {
           de: '(Partner-Stacks, für später)',
           fr: '(Package partenaire, pour après)',
           ja: '(後で2人頭割り)',
+          cn: '(稍后2人分摊)',
           ko: '(곧 2인 쉐어)',
         },
       },
@@ -266,6 +273,7 @@ const triggerSet: TriggerSet<Data> = {
           de: '(Verteilen, für später)',
           fr: '(Écartez-vous, pour après)',
           ja: '(後で散会)',
+          cn: '(稍后分散)',
           ko: '(곧 산개)',
         },
       },
@@ -295,6 +303,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Rein + Sammeln',
           fr: 'Intérieur + Package',
           ja: '黒線の内側 + 2人頭割り',
+          cn: '黑线内侧 + 2人分摊',
           ko: '안으로 + 쉐어',
         },
         outAndStacks: {
@@ -302,6 +311,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Raus + Sammeln',
           fr: 'Extérieur + Package',
           ja: '黒線の外側 + 2人頭割り',
+          cn: '黑线外侧 + 2人分摊',
           ko: '밖으로 + 쉐어',
         },
         stacks: {
@@ -309,6 +319,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Mit Partner sammeln',
           fr: 'Package avec votre partenaire',
           ja: '2人頭割り',
+          cn: '2人分摊',
           ko: '2인 쉐어',
         },
       },
@@ -333,6 +344,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Rein + Himmelsrichtung',
           fr: 'Intérieur + Positions',
           ja: '黒線の内側 + 基本散会',
+          cn: '黑线内侧 + 分散',
           ko: '안으로 + 산개',
         },
         outAndProtean: {
@@ -340,6 +352,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Raus + Himmelsrichtung',
           fr: 'Extérieur + Positions',
           ja: '黒線の外側 + 散会',
+          cn: '黑线外侧 + 分散',
           ko: '밖으로 + 산개',
         },
         protean: {
@@ -347,6 +360,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Himmelsrichtung',
           fr: 'Positions',
           ja: '散会',
+          cn: '分摊',
           ko: '산개',
         },
       },
@@ -486,6 +500,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Inneres Viereck',
           fr: 'Intérieur carré',
           ja: '内側の四角の中',
+          cn: '内侧四角',
           ko: '중앙',
         },
         cornerNW: {
@@ -493,6 +508,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'NW Ecke',
           fr: 'Coin NO',
           ja: '北西の隅',
+          cn: '左上（西北）角',
           ko: '북서쪽 구석',
         },
         cornerNE: {
@@ -500,6 +516,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'NO Ecke',
           fr: 'Coin NE',
           ja: '北東の隅',
+          cn: '右上（东北）角',
           ko: '북동쪽 구석',
         },
         cornerSE: {
@@ -507,6 +524,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'SO Ecke',
           fr: 'Coin SE',
           ja: '南東の隅',
+          cn: '右下（东南）角',
           ko: '남동쪽 구석',
         },
         cornerSW: {
@@ -514,6 +532,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'SW Ecke',
           fr: 'Coin SO',
           ja: '南西の隅',
+          cn: '左下（西南）角',
           ko: '남서쪽 구석',
         },
         outsideNorth: {
@@ -521,6 +540,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Im Norden raus',
           fr: 'Nord Extérieur',
           ja: '北の外側',
+          cn: '上（北）外侧',
           ko: '북쪽 바깥',
         },
         insideNorth: {
@@ -528,6 +548,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Im Norden rein',
           fr: 'Nord Intérieur',
           ja: '北の内側',
+          cn: '上（北）内侧',
           ko: '북쪽 안',
         },
         outsideEast: {
@@ -535,6 +556,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Im Osten raus',
           fr: 'Est Extérieur',
           ja: '東の外側',
+          cn: '右（东）外侧',
           ko: '동쪽 바깥',
         },
         insideEast: {
@@ -542,6 +564,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Im Osten rein',
           fr: 'Est Intérieur',
           ja: '東の内側',
+          cn: '右（东）内侧',
           ko: '동쪽 안',
         },
         outsideSouth: {
@@ -549,6 +572,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Im Süden raus',
           fr: 'Sud Extérieur',
           ja: '南の外側',
+          cn: '下（南）外侧',
           ko: '남쪽 바깥',
         },
         insideSouth: {
@@ -556,6 +580,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Im Süden rein',
           fr: 'Sud Intérieur',
           ja: '南の内側',
+          cn: '下（南）内侧',
           ko: '남쪽 안',
         },
         outsideWest: {
@@ -563,6 +588,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Im Westen raus',
           fr: 'Ouest Extérieur',
           ja: '西の外側',
+          cn: '左（西）外侧',
           ko: '서쪽 바깥',
         },
         insideWest: {
@@ -570,6 +596,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Im Westen rein',
           fr: 'Ouest Intérieur',
           ja: '西の内側',
+          cn: '左（西）内侧',
           ko: '서쪽 안',
         },
       },
@@ -660,6 +687,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Schaue Kardinal',
           fr: 'Regardez en cardinal',
           ja: '視線を十字に',
+          cn: '看正点方向',
           ko: '시선을 동서남북쪽으로',
         },
         intercards: {
@@ -667,6 +695,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Schaue Interkardinal',
           fr: 'Regardez en intercardinal',
           ja: '視線を斜めに',
+          cn: '看斜点方向',
           ko: '시선을 대각선쪽으로',
         },
         gorgons: {
@@ -674,6 +703,7 @@ const triggerSet: TriggerSet<Data> = {
           de: '${dir1}/${dir2} Gorgone',
           fr: '${dir1}/${dir2} Gorgone',
           ja: 'ゴルゴン：${dir1}/${dir2}',
+          cn: '${dir1}/${dir2} 蛇',
           ko: '${dir1}/${dir2} 고르곤',
         },
         dirN: Outputs.dirN,
@@ -725,6 +755,7 @@ const triggerSet: TriggerSet<Data> = {
             de: 'Erster Blick (+ ${player})',
             fr: 'Premier Regard (+ ${player})',
             ja: '先の石化 (+${player})',
+            cn: '先石化 (与${player})',
             ko: '첫번째 석화 (+ ${player})',
           },
           secondGaze: {
@@ -732,6 +763,7 @@ const triggerSet: TriggerSet<Data> = {
             de: 'Zweiter Blick (+ ${player})',
             fr: 'Second Regard (+ ${player})',
             ja: '後の石化 (+${player})',
+            cn: '后石化 (与${player})',
             ko: '두번째 석화 (+ ${player})',
           },
           firstPoison: {
@@ -739,6 +771,7 @@ const triggerSet: TriggerSet<Data> = {
             de: 'Erstes Gift (+ ${player})',
             fr: 'Premier Poison (+ ${player})',
             ja: '先の毒 (+${player})',
+            cn: '先放毒 (与${player})',
             ko: '첫번째 독장판 (+ ${player})',
           },
           secondPoison: {
@@ -746,6 +779,7 @@ const triggerSet: TriggerSet<Data> = {
             de: 'Zweites Gift (+ ${player})',
             fr: 'Second Poison (+ ${player})',
             ja: '後の毒 (+${player})',
+            cn: '后放毒 (与${player})',
             ko: '두번째 독장판 (+ ${player})',
           },
           unknown: Outputs.unknown,
@@ -820,6 +854,7 @@ const triggerSet: TriggerSet<Data> = {
             de: 'Erster Blick',
             fr: 'Premier Regard',
             ja: '先の石化',
+            cn: '先石化',
             ko: '첫번째 석화',
           },
           secondGaze: {
@@ -827,6 +862,7 @@ const triggerSet: TriggerSet<Data> = {
             de: 'Zweiter Blick',
             fr: 'Second Regard',
             ja: '後の石化',
+            cn: '后石化',
             ko: '두번째 석화',
           },
           shriek: {
@@ -834,6 +870,7 @@ const triggerSet: TriggerSet<Data> = {
             de: 'Schrei später (mit ${player})',
             fr: 'Cri plus tard (avec ${player})',
             ja: '自分に全体石化 (+${player})',
+            cn: '全屏石化点名 (与${player})',
             ko: '나중에 마안 (+ ${player})',
           },
           stack: {
@@ -841,6 +878,7 @@ const triggerSet: TriggerSet<Data> = {
             de: 'Später sammeln (mit ${player})',
             fr: 'Package plus tard (avec ${player})',
             ja: '自分に頭割り (+${player})',
+            cn: '分摊点名 (与${player})',
             ko: '나중에 쉐어 (+ ${player})',
           },
           noDebuff: {
@@ -848,6 +886,7 @@ const triggerSet: TriggerSet<Data> = {
             de: 'Kein Debuff (+ ${player1}, ${player2}, ${player3})',
             fr: 'Aucun debuff (+ ${player1}, ${player2}, ${player3})',
             ja: '無職 (${player1}, ${player2}, ${player3})',
+            cn: '无点名 (与${player1}, ${player2}, ${player3})',
             ko: '디버프 없음 (+ ${player1}, ${player2}, ${player3})',
           },
         };
@@ -984,12 +1023,14 @@ const triggerSet: TriggerSet<Data> = {
           en: 'Follow to ${dir} (Knockback)',
           fr: 'Allez vers ${dir} (Poussée)',
           ja: '${dir}に近づく (ノックバック)',
+          cn: '靠近${dir} (击退)',
           ko: '${dir}으로 따라가기 (넉백)',
         },
         crushDir: {
           en: 'Away to ${dir}',
           fr: 'Loin de ${dir}',
           ja: '${dir}が安置 (クラッシュ)',
+          cn: '前往${dir} (躲避钢铁)',
           ko: '${dir}으로 피하기',
         },
         crush: {
@@ -997,6 +1038,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Weg vom Sprung',
           fr: 'Éloignez-vous du saut',
           ja: '離れる',
+          cn: '远离',
           ko: '멀리 떨어지기',
         },
         impact: {
@@ -1004,6 +1046,7 @@ const triggerSet: TriggerSet<Data> = {
           de: 'Sprung folgen',
           fr: 'Suivez le saut',
           ja: '近づく',
+          cn: '前往跳跃方向',
           ko: '보스 따라가기',
         },
         north: Outputs.north,
